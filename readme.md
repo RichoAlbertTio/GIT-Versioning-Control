@@ -31,6 +31,14 @@ Perintah ini digunakan untuk mengecek daftar remote yang telah terhubung.
 
 ## 9. git push origin master
 Perintah ini digunakan untuk memasukkan data atau file ke dalam branch "master" di GitHub.
+selesai.
 
-## 10. Mengganti Nama Repositori pada Remote (Opsional)
-Jika Anda ingin mengganti nama repositori remote, gunakan perintah berikut:
+## 10. git branch -M main
+digunakan untuk membuat branch baru bernama main
+
+
+## 11. jika misalkan satu file kita terjadi perubahan, misal pada readme.md 
+###  a. git add readme.md, jika lebih dari satu file maka gunakan git add.
+###  b. kemudian berikan komentar dengan git commit -m "perubahan pada file readme.md"
+
+###  c. git push origin master (sesuai nama branch)
