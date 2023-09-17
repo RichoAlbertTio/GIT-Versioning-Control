@@ -19,9 +19,9 @@ Gunakan `-m` untuk menambahkan pesan commit.
 Perintah ini digunakan untuk melihat history commit perubahan.
 
 ## 6. Membuat Repositori di GitHub
-   a. Masuk ke web GitHub, buat repositori baru, dan beri nama sesuai proyek.
-   b. Pilih akses "Public" agar dapat dilihat oleh orang lain, atau "Private" hanya dapat diakses oleh orang tertentu.
-   c. Klik "Create Repository".
+###   a. Masuk ke web GitHub, buat repositori baru, dan beri nama sesuai proyek.
+###   b. Pilih akses "Public" agar dapat dilihat oleh orang lain, atau "Private" hanya dapat diakses oleh orang tertentu.
+###   c. Klik "Create Repository".
 
 ## 7. Menghubungkan Repositori Lokal dengan GitHub
 Gunakan perintah ini untuk menghubungkan repositori Git lokal ke GitHub.
