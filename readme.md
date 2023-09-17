@@ -1,46 +1,36 @@
-# 1. git init
-#    Perintah yang digunakan untuk memulai repositori Git baru di dalam direktori 
+# Git Commands
 
+## 1. git init
+Perintah ini digunakan untuk memulai repositori Git baru di dalam direktori.
 
-# 2. git status
-#    Perintah yang digunakan untuk melihat perubahan pada repositori yang dibuat
+## 2. git status
+Perintah ini digunakan untuk melihat perubahan pada repositori yang dibuat.
 
+## 3. git add readme.md
+Perintah ini digunakan untuk memasukkan satu file dalam repositori. 
+Gunakan `git add .` atau `git add *` untuk memasukkan semua file atau folder.
 
-# 3. git add readme.md
-#    Perintah yang digunakan untuk memasukan satu file dalam repositori
-#    Kemudian git status untuk melihat perubahannya (git add data/script.js)
-#    jika ingin memasukan semua file atau folder kita gunakan "git add ." atau "git add *"
+## 4. git commit -m "Menambahkan Folder data/script.js dan readme.md"
+Perintah ini digunakan untuk menyimpan snapshot (commit) dari perubahan. 
+Setiap perubahan harus memiliki catatan perubahan atau komentar. 
+Gunakan `-m` untuk menambahkan pesan commit.
 
+## 5. git log atau git log --oneline
+Perintah ini digunakan untuk melihat history commit perubahan.
 
-# 4. git commit -m "Menambahkan Folder data/script.js dan readme.md"
-#    Perintah yang digunakan untuk menyimpan snapshot (commit) dari perubahan 
-#    jadi setiap perubahan memiliki catatan perubahan atau komentar
-#    -m menandakan masih beradar pada branch master
+## 6. Membuat Repositori di GitHub
+   a. Masuk ke web GitHub, buat repositori baru, dan beri nama sesuai proyek.
+   b. Pilih akses "Public" agar dapat dilihat oleh orang lain, atau "Private" hanya dapat diakses oleh orang tertentu.
+   c. Klik "Create Repository".
 
-# 5. git log atau git log --oneline
-#    Perintah yang digunakan untuk melihat history commit perubahan
+## 7. Menghubungkan Repositori Lokal dengan GitHub
+Gunakan perintah ini untuk menghubungkan repositori Git lokal ke GitHub.
 
+## 8. git remote -v
+Perintah ini digunakan untuk mengecek daftar remote yang telah terhubung.
 
-# 6. a. Masuk ke web github bikin new repositori, buat namanya proyek yang ingin dibuat
-#    b. pilih instruksi public jika ingin orang lain bisa melihatnya, dan private hanya orang khusus atau  kita sendiri yang dapat melihatnya
-#    c. klik new
+## 9. git push origin master
+Perintah ini digunakan untuk memasukkan data atau file ke dalam branch "master" di GitHub.
 
-
-# 7. git add remote origin https://github.com/RichoAlbertTio/GIT-Versioning-Control.git
-#    git remote add origin https://github.com/RichoAlbertTio/GIT-Versioning-Control.git
-#    origin merupakan nama remote, biasanya dikasih nama origin
-#    Perintah yang digunakan untuk menghubungkan git lokal pc ke github
-#    dengan perintah "git add remote origin" 
-#    salin kode ssh "https://github.com/RichoAlbertTio/GIT-Versioning-Control.git"
-
-
-# 8. git remote -v
-#    Perintah yang digunakan untuk mengecek remote
-
-
-# 9. git push origin master
-#    opsional (git push -u origin master)
-#    Perintah untuk memasukan data / file ke dalam branch master
-
-
-# 10. 
+## 10. Mengganti Nama Repositori pada Remote (Opsional)
+Jika Anda ingin mengganti nama repositori remote, gunakan perintah berikut:
